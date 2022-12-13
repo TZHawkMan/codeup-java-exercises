@@ -6,5 +6,9 @@ public class Main {
         System.out.println("Hello,World"); ////////equivalent to console.log/////
         //System.out.println shortcut:
           //sout
+        short age = 21; //declare and initialize
+        long id;// declare
+        id = 12;// initialize
+        
 }}
 
