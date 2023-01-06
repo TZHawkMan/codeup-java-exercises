@@ -1,4 +1,4 @@
-public class Main {
+//public class Main {
     //main method shortcut:
     //main(tab/enter)
     //psvm(tab/enter)
@@ -17,7 +17,7 @@ public class Main {
             //main(tab/enter)
             //psvm(tab/enter)
 
-            public static void main(String[] args){
+//            public static void main(String[] args){
 //        double decimal = 5.5;
 //        float newNum = (float) decimal;
 //        System.out.println(decimal);
@@ -27,10 +27,10 @@ public class Main {
                 //sout
 
                 //Syntax, Types, and variables Exercise: Start
-                int myFavoriteNumber = 2;
-
-                String myString = "Good Morning, Icon!";
-                System.out.println(myString);
+//                int myFavoriteNumber = 2;
+//
+//                String myString = "Good Morning, Icon!";
+//                System.out.println(myString);
 
                 //myString = 'c';
 
@@ -56,10 +56,10 @@ public class Main {
 //        System.out.println(++x); // prints out 6
 //        System.out.println(x);
 
-                //int class ....;
-                String theNumberThree = "three";
-                Object o = theNumberThree;
-                //int three = (int) o;
+//                //int class ....;
+//                String theNumberThree = "three";
+//                Object o = theNumberThree;
+//                //int three = (int) o;
 
                 //int three = (int) "three";
 
@@ -79,11 +79,11 @@ public class Main {
 //        //y = y - x;
 //        y -= x;
 
-                int reallyBigNumber = 2147483647; // fits into integer value
-                //int reallyBigNumber2 = 2147483648; /// past integer buffer
-                int increReallyBigNumber = 2147483647;
-                increReallyBigNumber++;
-                ++increReallyBigNumber;
+//                int reallyBigNumber = 2147483647; // fits into integer value
+//                //int reallyBigNumber2 = 2147483648; /// past integer buffer
+//                int increReallyBigNumber = 2147483647;
+//                increReallyBigNumber++;
+//                ++increReallyBigNumber;
                 //System.out.println(increReallyBigNumber);
 
                 //Syntax, Types, and variables Exercise: End
@@ -101,17 +101,17 @@ public class Main {
 //        //System.out.printf("%s, %s!", greeting, name);
 //        System.out.printf("%s, %s!", name, greeting);
 
-                //Scanner scanner = new Scanner(System.in); // scanner object
-                Scanner scanner1 = new Scanner(System.in);// 2nd scanner object
-
-                //System.out.print("Enter something: ");
-                //String userInput = scanner.next(); // next item form the console
-
-                //System.out.println("You entered: --> \"" + userInput + "\" <--"); // prints out first items until whitesapce
-
-                System.out.print("Enter something: ");
-                boolean userInput2 = scanner1.nextBoolean(); // entire next line fromm the console
-                System.out.println("You entered: --> \"" + userInput2 + "\" <--");
-        
-}}
+//                //Scanner scanner = new Scanner(System.in); // scanner object
+//                Scanner scanner1 = new Scanner(System.in);// 2nd scanner object
+//
+//                //System.out.print("Enter something: ");
+//                //String userInput = scanner.next(); // next item form the console
+//
+//                //System.out.println("You entered: --> \"" + userInput + "\" <--"); // prints out first items until whitesapce
+//
+//                System.out.print("Enter something: ");
+//                boolean userInput2 = scanner1.nextBoolean(); // entire next line fromm the console
+//                System.out.println("You entered: --> \"" + userInput2 + "\" <--");
+//
+//}}
 
