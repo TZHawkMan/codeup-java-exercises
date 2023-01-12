@@ -1,5 +1,6 @@
 package util;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Input {
@@ -45,7 +46,16 @@ public class Input {
 
 }
 
+//    public static double getDouble(){
+//        System.out.println("enter an double value");
+//        String stringVal = getString()'
+//    double doubleVal;
+//        try {
+//            doubleVal= Double.valueOf(stringVal);
+//
+//        }Catch (numberFormatException e) {
 
-
+//    }
+//
 
 
