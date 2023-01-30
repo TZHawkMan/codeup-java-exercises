@@ -1,21 +1,20 @@
-import java.util.Random;
-
 public class ServerNameGenerator {
+    private static String[] adj = {"radical", "tubular", "gnarly", "wicked", "groovy", "bland", "juicy", "wild", "sketchy", "worked"};
+    private static String[] noun = {"wombat", "potoroo", "kangaroo", "koala", "bandicoot", "quoll", "opossum", "billby", "numbat", "wallaby"};
 
+    private static String randomElement(String[] strings) {
+        int randomNum = (int) (Math.random() * strings.length);
+        return strings[randomNum];
+    }
 
-
-
+    public static String makeServerName (String[] arr1, String[] arr2) {
+        String adj = randomElement(arr1);
+        String noun = randomElement(arr2);
+        return adj + "-" + noun;
+    }
 
     public static void main(String[] args) {
-
-        String [][] adjectiveNouns = {
-                {"good","bad","nice","bad","tall","short","pretty","ugly"},
-                {"weather","day","food","cup","numbers","books","pc","chair"}
-        };
-        for (int i = 0; i<adjectiveNouns.length; i++){
-            System.out.println(adjectiveNouns[i]);
-
-
-
-        }
-}}
+        System.out.println("Your new server name is:");
+        System.out.println(makeServerName(adj,noun));
+    }
+}
